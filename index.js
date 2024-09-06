@@ -17,7 +17,7 @@ eapp.use(cors());
 eapp.use(express.json())
 
 
-// eapp.use(express.static('public'));
+ eapp.use(express.static('public'));
 // ---------------------------------------------------------------
 const readDB = () => {
     const data = fs.readFileSync('public/muse.json');
