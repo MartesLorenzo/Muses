@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "id": 112471,
+      "Iperfil": "http://localhost:3000/users/1724878201736_image112470.png",
+      "Icapa": "http://localhost:3000/users/1724878201736_image112470.png",
+      "nome": "Romulos",
+      "email": "romulo32@gmail",
+      "senha": "Romulo6077",
+      "tipo": "user",
+      "nviews": 487980
+    },
+    {
+      "id": 112473,
+      "Iperfil": "http://localhost:3000/users/1724943574299_image112472.png",
+      "Icapa": "http://localhost:3000/users/1724943574299_image112472.png",
+      "nome": "Martes Lourenço",
+      "email": "marteslourencoantonio@gmail.com",
+      "senha": "Mario6077",
+      "tipo": "admin",
+      "nviews": 1300080
+    },
+    {
+      "id": "UCoHV8LxUFKeIvifJsB3c7Ww",
+      "Iperfil": "https://yt3.ggpht.com/0IbTwrmrAG9cUm6QmikDvct4pk8TypakBI2ziALJQ4Mr5XB_H_MWKzbM-MgsFKeIhKkbVhLUKA=s68-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/0IbTwrmrAG9cUm6QmikDvct4pk8TypakBI2ziALJQ4Mr5XB_H_MWKzbM-MgsFKeIhKkbVhLUKA=s68-c-k-c0x00ffffff-no-rj",
+      "nome": "30PRAUM",
+      "email": "UCoHV8LxUFKeIvifJsB3c7Ww",
+      "senha": "UCoHV8LxUFKeIvifJsB3c7Ww",
+      "tipo": "user",
+      "nviews": 1787980
+    },
+    {
+      "id": "UCb-ikMqe9iS8GjG7WgGwCrQ",
+      "Iperfil": "https://yt3.ggpht.com/HwVPRJvLuadfEsORLY8gjCCDUvbabUIDIKg0MjHCGJ8B2RX5KynPZIBVFMkqPsP8gHPDw-5W=s88-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/HwVPRJvLuadfEsORLY8gjCCDUvbabUIDIKg0MjHCGJ8B2RX5KynPZIBVFMkqPsP8gHPDw-5W=s88-c-k-c0x00ffffff-no-rj",
+      "nome": "Teddy Swims",
+      "email": "UCb-ikMqe9iS8GjG7WgGwCrQ",
+      "senha": "UCb-ikMqe9iS8GjG7WgGwCrQ",
+      "tipo": "user",
+      "nviews": 787980
+    },
+    {
+      "id": "UCvvVOIyaYu2l4jiH9L8_eRw",
+      "Iperfil": "https://yt3.ggpht.com/ytc/AIdro_ng1eE9lPzxCZsmA8sh5-irvcIxK_mD1GKaa9ewVJyJiD5U=s88-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/ytc/AIdro_ng1eE9lPzxCZsmA8sh5-irvcIxK_mD1GKaa9ewVJyJiD5U=s88-c-k-c0x00ffffff-no-rj",
+      "nome": "Dax",
+      "email": "UCvvVOIyaYu2l4jiH9L8_eRw",
+      "senha": "UCvvVOIyaYu2l4jiH9L8_eRw",
+      "tipo": "user",
+      "nviews": 3787980
+    },
+    {
+      "id": "UC9EgazNjxm-_3eydGQR45rQ",
+      "Iperfil": "https://yt3.ggpht.com/ytc/AIdro_n_Nfe7mINhW42f32ml4z_zsXJS0iOoNMTqtv4Zqq5pEA=s68-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/ytc/AIdro_n_Nfe7mINhW42f32ml4z_zsXJS0iOoNMTqtv4Zqq5pEA=s68-c-k-c0x00ffffff-no-rj",
+      "nome": "TikTokTunes",
+      "email": "UC9EgazNjxm-_3eydGQR45rQ",
+      "senha": "UC9EgazNjxm-_3eydGQR45rQ",
+      "tipo": "user",
+      "nviews": 2787980
+    },
+    {
+      "id": "UCDiQ-LZ8dfc3cmoGBxMDS7Q",
+      "Iperfil": "https://yt3.ggpht.com/ytc/AIdro_lJAyCdE_WHVOzl8iO3NOhy3gJSFh444-UtowbhER1Skw=s68-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/ytc/AIdro_lJAyCdE_WHVOzl8iO3NOhy3gJSFh444-UtowbhER1Skw=s68-c-k-c0x00ffffff-no-rj",
+      "nome": "Mainstreet Records",
+      "email": "UCDiQ-LZ8dfc3cmoGBxMDS7Q",
+      "senha": "UCDiQ-LZ8dfc3cmoGBxMDS7Q",
+      "tipo": "user"
+    },
+    {
+      "id": "UCde-0Qs4x_Hg6OJR5-_edhg",
+      "Iperfil": "https://yt3.ggpht.com/ytc/AIdro_mlGaMnnxBRJKwSW-A4QAxT047UoZTggid52lqOLf2KUxg=s68-c-k-c0x00ffffff-no-rj",
+      "Icapa": "https://yt3.ggpht.com/ytc/AIdro_mlGaMnnxBRJKwSW-A4QAxT047UoZTggid52lqOLf2KUxg=s68-c-k-c0x00ffffff-no-rj",
+      "nome": "CERTIBEATS",
+      "email": "UCde-0Qs4x_Hg6OJR5-_edhg",
+      "senha": "UCde-0Qs4x_Hg6OJR5-_edhg",
+      "tipo": "user"
+    }
+  ],
+  "musics": [
+    {
+      "id": 112484,
+      "nome": "Teto - Fim de Semana no Rio 🧀💨",
+      "capa": "https://i.ytimg.com/vi/7AlAYttGnAg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6clv6Xv26kv8FuTplUuGb9pTNog",
+      "song": "de31ef",
+      "cateP": 112481,
+      "cateG": 112481,
+      "idUs": "UCoHV8LxUFKeIvifJsB3c7Ww",
+      "regiao": "Brasil",
+      "nviews": 787980
+    },
+    {
+      "id": 112485,
+      "nome": "Teddy Swims - Lose Control (Live)",
+      "capa": "https://i.ytimg.com/vi/GZ3zL7kT6_c/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAm3_8KP_QJ7k4lELDA-xVyAaZo5w",
+      "song": "04b7ee",
+      "cateP": "",
+      "cateG": "",
+      "idUs": "UCb-ikMqe9iS8GjG7WgGwCrQ",
+      "regiao": "",
+      "nviews": 2787980
+    },
+    {
+      "id": 112486,
+      "nome": "Dax - GOTHAM (Official Music Video)",
+      "capa": "https://i.ytimg.com/vi/Ve6nUvv47T4/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDsuaid351VJHMsK7UKSufibYvv-A",
+      "song": "517677",
+      "cateP": "",
+      "cateG": "",
+      "idUs": "UCvvVOIyaYu2l4jiH9L8_eRw",
+      "regiao": "",
+      "nviews": 3387980
+    },
+    {
+      "id": 112487,
+      "nome": "Chefin - 10 CARROS (prod. LB Único)",
+      "capa": "https://i.ytimg.com/vi/T2BQG_8CFHI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlO8Ogs4t0-SwysYLtFM1V8RKDZw",
+      "song": "6a67da",
+      "cateP": "",
+      "cateG": "",
+      "idUs": "UCDiQ-LZ8dfc3cmoGBxMDS7Q",
+      "regiao": "",
+      "nviews": 447980
+    },
+    {
+      "id": 112488,
+      "nome": "(FREE) | \"Naive\" | Rema x Tiwa Savage x Omah Lay Type Beat | Free Beat | Afrobeat Instrumental 2024",
+      "capa": "https://i.ytimg.com/vi/ZM4Z6AtKkyE/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYHSByKBMwDw==&rs=AOn4CLD-Z22mY7hztV71Y6EbEPkNIsm5rg",
+      "song": "7ca2e7",
+      "cateG": 662481,
+      "idUs": "UCde-0Qs4x_Hg6OJR5-_edhg",
+      "regiao": "",
+      "nviews": 1787980
+    }
+  ],
+  "cates": [
+    {
+      "id": 112478,
+      "nome": "RNB",
+      "idUs": 112473,
+      "tipo": "admin"
+    },
+    {
+      "id": 112481,
+      "nome": "Trap",
+      "idUs": 112473,
+      "tipo": "admin"
+    },
+    {
+      "id": 112482,
+      "nome": "Electronica",
+      "idUs": 112473,
+      "tipo": "admin"
+    },
+    {
+      "id": 112483,
+      "nome": "Pop",
+      "idUs": 112473,
+      "tipo": "admin"
+    }
+  ],
+  "follow": [
+    {
+      "id": 112473
+    },
+    {
+      "id": 112473,
+      "idC": "UCoHV8LxUFKeIvifJsB3c7Ww"
+    },
+    {
+      "id": 112473,
+      "idC": "UCvvVOIyaYu2l4jiH9L8_eRw"
+    }
+  ],
+  "destaque": [
+    {
+      "id": 112485
+    },
+    {
+      "id": 112487
+    },
+    {
+      "id": 112484
+    }
+  ],
+  "popular": [
+    {
+      "id": "UCvvVOIyaYu2l4jiH9L8_eRw"
+    },
+    {
+      "id": "UCDiQ-LZ8dfc3cmoGBxMDS7Q"
+    },
+    {
+      "id": "UCoHV8LxUFKeIvifJsB3c7Ww"
+    }
+  ],
+  "recomend": [
+    {
+      "id": 112485
+    },
+    {
+      "id": 112484
+    }
+  ],
+  "reacts": [],
+  "seguids": [
+    {
+      "id": "UCoHV8LxUFKeIvifJsB3c7Ww"
+    },
+    {
+      "id": "UCb-ikMqe9iS8GjG7WgGwCrQ"
+    },
+    {
+      "id": "UCvvVOIyaYu2l4jiH9L8_eRw"
+    }
+  ],
+  "favorities": [
+    {
+      "id": 112484,
+      "idC": 112473
+    }
+  ],
+  "playlist": [
+    {
+      "id": 112489,
+      "nome": "Sweed",
+      "idUs": 112473,
+      "tipo": "publica",
+      "musis": [
+        "04b7ee",
+        "de31ef"
+      ]
+    },
+    {
+      "id": 112491,
+      "nome": "Calcio",
+      "idUs": 112473,
+      "tipo": "publica",
+      "musis": [
+        "04b7ee"
+      ]
+    }
+  ],
+  "regiao": [],
+  "ouvintes": [],
+  "caches": [],
+  "langs": []
+}
