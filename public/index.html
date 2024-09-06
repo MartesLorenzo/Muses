@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="src/Muse/Pstyle.css"> -->
+    
+    <title>Muse Play</title>
+  <script type="module" crossorigin src="/assets/index-053ffc3c.js"></script>
+  <link rel="stylesheet" href="/assets/index-f77b8957.css">
+</head>
+<body>
+  <script>
+          const ids=JSON.parse(localStorage.getItem("ids")) || ['112457']
+  function LoginsT() {
+    const Logins = JSON.parse(localStorage.getItem('Logins')) || ['']
+
+    return Logins
+  }
+  function RegisT() {
+    const Regis = JSON.parse(localStorage.getItem('Regis')) || ['']
+
+    return Regis
+  }
+  function IdiosT() {
+    const Idios = JSON.parse(localStorage.getItem('Idios')) || ['']
+
+    return Idios
+  }
+  function sve() {
+    localStorage.setItem("ids", JSON.stringify(ids))
+  }
+    function obid(){
+let calc=Number(ids)+1
+ids.splice(0)
+sve()
+ids.push(calc)
+sve()
+
+return calc
+}
+
+function limit(val) {
+  if (val.length > 12) {
+    let vol = val.substring(0, 10)+"..."
+    return vol
+  }
+  return val
+}
+
+function limpa(){
+  let inps = document.querySelectorAll("input")
+
+  inps.forEach(el =>{
+    el.value=""
+  })
+}
+
+function Nviews(vals) {
+  let m = Number(vals);
+
+  if (m >= 1000000000) {
+    return (m / 1000000000).toFixed(0) + "B";
+  } else if (m >= 1000000) {
+    return (m / 1000000).toFixed(0) + "M";
+  } else if (m >= 1000) {
+    return (m / 1000).toFixed(0) + "K";
+  } else {
+    return m.toString();
+  }
+}
+
+// function Nviews(vals) {
+
+//   return vals.toLocaleString("pt-Br")
+//     let q1=(1000000000 - 1)
+//     let q2=(1000000 - 1)
+//     let q3=(1000 - 1)
+//             let m=vals
+//             if (m > q1) {
+//                 let c1 = Number(vals) - q1
+//                 let c2 = c1+"B"
+//                 return c2
+//             }
+//             else{
+//                 if (m > q2) {
+//                   let c1 = Number(vals) - q2
+//                   let c2 = c1+"M"
+//                   return c2
+//                 }
+//                 else{
+//                     if (m > q3) {
+//                       let c1 = Number(vals) - q3
+//                       let c2 = c1+"K"
+//                       return c2
+//                     }
+//                     else{
+//                     return val
+//                     }   
+//             }
+//         }
+//         }
+    
+</script>
+    <div id="root"></div>
+    
+
+    <script>
+      
+function trad(val, lang) {
+        // const lang=JSON.parse(localStorage.getItem('lang')) || ['pt']
+
+        const formData = new FormData();
+        formData.append("texto", val);
+        formData.append("lang", String(lang));
+    
+        const xhr = new XMLHttpRequest();
+        try {
+        xhr.open("POST", "http://localhost:3000/traduz", false); // 'false' para uma chamada síncrona
+    
+        xhr.send(formData);
+    
+            const response = JSON.parse(xhr.responseText);
+            // console.log(response);
+            return response;
+        // return val;
+          } catch (error) {
+            return val;
+        }
+
+    }
+
+function traduza(lang) {
+        let h1=document.querySelectorAll("#trader")
+
+        h1.forEach(el => {
+            setTimeout(() => {
+                let val=el.textContent
+                let tr=trad(val, lang)
+                el.textContent=tr
+                }, 2200);
+
+        })
+
+        let h2=document.querySelectorAll("#trade")
+
+        h2.forEach(el => {
+          setTimeout(() => {
+            let val=el.placeholder
+            let tr=trad(val, lang)
+            el.textContent=tr
+          }, 2200);
+
+})
+    }
+
+const Idios = JSON.parse(localStorage.getItem('Idios')) || ['pt']
+
+setTimeout(() => {
+  traduza(String(Idios))
+}, 1000);
+
+    </script>
+
+</body>
+</html>
